@@ -1,0 +1,16 @@
+[project]
+name = "hckrnews-cli"
+version = "0.1.0"
+description = "Skim the hckrnews.com top 10 / top 20 Hacker News headlines in the terminal"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+hn = "hn:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["hn"]
