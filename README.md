@@ -7,8 +7,11 @@ Uses hckrnews.com's own data and the same "top N" cut-off, so the list matches t
 ## Install
 
 ```bash
-uv tool install .            # or: pipx install .
+uv tool install git+https://github.com/mlhollestelle/hckrnews-cli
+# or: pipx install git+https://github.com/mlhollestelle/hckrnews-cli
 ```
+
+From a local clone: `uv tool install .`
 
 ## Usage
 
